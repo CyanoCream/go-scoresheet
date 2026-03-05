@@ -1,10 +1,11 @@
 package controllers
 
 import (
-	"github.com/gofiber/fiber/v2"
 	"go-scoresheet/master/models"
 	"go-scoresheet/master/service"
 	"strconv"
+
+	"github.com/gofiber/fiber/v2"
 )
 
 type PermissionRoleController struct {
@@ -17,6 +18,7 @@ func NewPermissionRoleController(permissionRoleService service.PermissionRoleSer
 	}
 }
 
+// testaja
 // CreatePermissionRole godoc
 // @Tags Permission Roles
 // @Summary Create Permission Role
